@@ -9,7 +9,7 @@ const httpOptions = {
 @Injectable()
 export class HomeService {
 
-  baseUrl: string = 'http://localhost:3001';
+  baseUrl: string = 'http://192.168.0.29:3001';
   constructor(private http: HttpClient) {
   }
 
